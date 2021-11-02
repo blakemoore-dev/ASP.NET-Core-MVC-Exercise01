@@ -13,5 +13,6 @@ namespace ASP.NET_Core_MVC_Exercise01.Models
         public int CategoryID { get; set; }
         public int OnSale { get; set; }
         public int StockLevel { get; set; }
+        public IEnumerable<Category> Categories { get; set; }
     }
 }
